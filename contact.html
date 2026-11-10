@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact | Collins Inuwa</title>
+<meta name="description" content="Portfolio of Collins Inuwa: Electrical Electronics Engineering graduate (AFIT Kaduna), Software Engineering student, Oracle OCI and AWS certified.">
+<script>document.documentElement.dataset.theme=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')</script>
+<meta name="theme-color" content="#1c130d"><meta property="og:type" content="website"><meta property="og:title" content="Collins Inuwa | Portfolio"><meta property="og:description" content="Software Engineering student, Oracle OCI and AWS certified, AFIT Kaduna alumnus."><link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><a class="brand" href="index.html"><b>CI</b>Collins Inuwa</a><nav aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="planner.html">Planner</a></li><li><a href="contact.html" class=active aria-current=page>Contact</a></li></ul></nav><button class="icon-btn" id="themeBtn" aria-label="Toggle light and dark mode"></button><button class="icon-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button></header>
+<main id="main">
+<h1 style="font-size:2.6rem;margin-bottom:8px">Contact me</h1>
+<p class="mu" style="margin-bottom:28px">Send me a message and I will reply to the email address you give.</p>
+<div class="split rev">
+<form id="contactForm" novalidate>
+<input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
+<div><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name"><span class="err" id="nameErr"></span></div>
+<div><label for="email">Email address</label><input id="email" name="email" type="text" inputmode="email" autocomplete="email"><span class="err" id="emailErr"></span></div>
+<div><label for="phone">Phone number (digits only)</label><input id="phone" name="phone" type="text" inputmode="numeric" autocomplete="tel"><span class="err" id="phoneErr"></span></div>
+<div><label for="message">Message</label><textarea id="message" name="message" rows="5" maxlength="500"></textarea><small class="mu" id="counter">0 / 500</small><span class="err" id="messageErr"></span></div>
+<button class="btn" id="sendBtn" type="submit">Send message</button><p id="status" role="status"></p></form>
+<aside class="box side"><h3>Email me directly</h3><div class="mail"><a id="mailLink" href="mailto:c.inuwa3241@miva.edu.ng">c.inuwa3241@miva.edu.ng</a><button class="btn alt" id="copyBtn" type="button">Copy</button></div>
+<h3>Call or WhatsApp</h3><div class="mail"><a href="tel:+2348126359601">+234 812 635 9601</a><a class="btn alt" href="https://wa.me/2348126359601" target="_blank" rel="noopener">WhatsApp</a></div>
+<h3>How I can help</h3><ul class="facts"><li>Responsive websites</li><li>JavaScript web apps</li><li>Cloud fundamentals support</li></ul><p class="mu">Open to internships, collaborations and freelance work.</p></aside></div>
+</main>
+<footer><p>&copy; 2026 Collins Udia Inuwa. Built for COS 106, MIVA Open University. <a href="resume.html" style="color:#e9d9c6">View CV</a></p></footer>
+<script src="js/main.js"></script><script src="js/contact.js"></script></body></html>
