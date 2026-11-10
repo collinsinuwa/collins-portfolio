@@ -16,3 +16,4 @@ Homepage (name, photo, welcome, nav, bio) | About (education, aspirations, skill
 1. Push this folder to a GitHub repository.
 2. Repository Settings > Pages > deploy from the `main` branch (or drag the folder onto Netlify).
 3. Submit the live link and the repository link.
+4. Submit the live link
