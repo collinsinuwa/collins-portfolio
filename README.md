@@ -15,5 +15,5 @@ Homepage (name, photo, welcome, nav, bio) | About (education, aspirations, skill
 ## Hosting
 1. Push this folder to a GitHub repository.
 2. Repository Settings > Pages > deploy from the `main` branch (or drag the folder onto Netlify).
-3. Submit the live link and the repository link.
-4. Submit the live link
+3. Live site: https://collins-portfolio-sigma.vercel.app
+4. Repository: https://github.com/collinsinuwa/collins-portfolio
